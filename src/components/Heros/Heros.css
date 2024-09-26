@@ -1,0 +1,47 @@
+.heros-content-areas{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../../assets/heros-img.webp);
+    background-position: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.heros-text-area{
+    text-align: center;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size:4rem;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2;
+}
+
+.heros-description-area{
+    text-align: center;
+    text-transform: capitalize;
+    font-size:3rem;
+    padding-top:1.5rem;
+    color: white;
+    letter-spacing: 1.2;
+}
+
+.btn-explore{
+    text-align: center;
+    text-transform: capitalize;
+    font: 3.5rem;
+    padding: 2rem;
+    background-color:var(--btn-color);
+    border-radius:1.5rem;
+    border-color: transparent;
+    margin-top: 6rem;
+}
+
+.btn-explore:hover{
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    transition:.3s;
+}

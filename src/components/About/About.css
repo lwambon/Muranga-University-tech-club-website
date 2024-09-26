@@ -82,6 +82,8 @@
     text-align: center;
     text-transform: capitalize;
     font-size: 1.8rem;
+    color: var(--secondary-color);
+    font-weight: 600;
 }
 .about-content-area{
     margin-left: 1rem;
