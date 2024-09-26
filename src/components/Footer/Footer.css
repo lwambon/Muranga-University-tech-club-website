@@ -1,0 +1,46 @@
+.footer-area {
+  background-color: var(--black-color);
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction:column;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+}
+
+.social-icons{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+
+.icons{
+    gap: 6rem;
+    display: flex;
+    list-style: none;
+    color: var(--btn-color);
+    
+}
+
+.icons-footer:hover{
+    transition:.3s;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+@media  screen and (max-width:27.5rem) {
+    .social-icons{
+        font-size: 2rem;
+    }
+
+    .icons{
+        gap: 2.9rem;
+    }
+    
+}
+
+.footer-text-area{
+    text-transform: capitalize;
+    color: var(--primary-color);
+    font-size:2rem;
+}
+

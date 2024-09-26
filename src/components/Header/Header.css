@@ -1,73 +1,70 @@
-.header-section{
-    display:flex;
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 2rem;
+  background-color: var(--secondary-color);
+}
+@media screen and (max-width: 46.75rem) {
+  .header-section {
+    display: block;
+    padding: 2rem;
+  }
+}
+
+.header-logo {
+  text-transform: capitalize;
+  margin-left: 0;
+  letter-spacing: 1.2px;
+  color: var(--text-background-color);
+}
+
+@media screen and (max-width: 46.75rem) {
+  .header-logo {
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
+  }
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 4rem;
+}
+
+@media screen and (max-width: 46.75rem) {
+  .nav-list {
+    gap: 0.8rem;
     align-items: center;
-    justify-content:space-between;
-    padding-block: 2rem;
-    background-color: var(--secondary-color);
-    
-}
-@media screen and (max-width:46.75rem){
-    .header-section{
-        display: block;
-        padding: 2rem;
-    }  
+    justify-content: center;
+  }
 }
 
-.header-logo{
-    text-transform: capitalize;
+.list-item {
+  list-style: none;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1.6rem;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 46.75rem) {
+  .list-item {
+    font-size: 1rem;
+    letter-spacing: 1px;
     margin-left: 0;
-    letter-spacing: 1.2px;
-    color: var(--text-background-color); 
+  }
 }
 
-@media screen and (max-width:46.75rem){
-    .header-logo{
-        text-align: center;
-        letter-spacing: 1px;
-        padding-bottom: 2rem;
-    }  
+.list-item:hover {
+  background-color: var(--btn-color);
+  padding: 1.2rem;
+  color: var(--primary-color);
+  transition: all 0.3s;
+  cursor: pointer;
 }
-
-.nav-list{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    list-style: none;
-    gap: 4rem;
-    
-}
-
-@media screen and (max-width:46.75rem){
-    .nav-list{
-        gap: .8rem;
-        align-items: center;
-        justify-content: center;
-    }  
-}
-
-.list-item{
-    list-style: none;
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: 1.6rem;
-    margin-right: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
-
-@media screen and (max-width:46.75rem){
-    .list-item{
-        font-size: 1rem;
-        letter-spacing: 1px;
-        margin-left: 0;
-    }  
-}
-
-.list-item:hover{
-    background-color: var(--btn-color);
-    padding: 1.2rem;
-    color: var(--primary-color);
-    transition: all .3s;
-    cursor: pointer;
-}
-
