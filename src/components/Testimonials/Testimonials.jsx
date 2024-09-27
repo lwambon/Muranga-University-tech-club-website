@@ -1,24 +1,13 @@
 import "./Testimonials.css";
-import PropTypes from "prop-types";
-import StudentOne from "../../assets/student1.jpg";
+//import PropTypes from "prop-types";
+//import StudentOne from "../../assets/student1.jpg";
+import Carousel from 'elastic-carousel';
+import Testimonies from "../../data/Testimonies";
 
-function TestimonialsSection({ mainTitle, subTitle }) {
-  return (
-    <section className="testimonial-section">
-      <div className="testimonial-title-area">
-        <h2 className="testimonial-maintitle">{mainTitle}</h2>
-        <p className="testimonial-subtitle">{subTitle}</p>
-      </div>
-    </section>
-  );
-}
 
-function TestimonialCards({
-  studentAvatar,
-  studentName,
-  highlightTitle,
-  StudentHighlights,
-}) {
+
+
+function TestimonialCards({ studentAvatar, studentName, highlightTitle,studentHighlights}) {
   return (
     <div className="testimonial-card-section">
       <div className="testimonial-container">
@@ -28,7 +17,7 @@ function TestimonialCards({
         </div>
         <div className="students-highlight-details">
           <h4 className="students-highlight-title">{highlightTitle}</h4>
-          <p className="students-highlight">{StudentHighlights}</p>
+          <p className="students-highlight">{studentHighlights}</p>
         </div>
       </div>
     </div>
@@ -38,20 +27,35 @@ function TestimonialCards({
 function Testimonials() {
   return (
     <div>
-      <TestimonialsSection
-        mainTitle={"testimonials"}
-        subTitle={"our students feedback"}
-      />
-      <TestimonialCards
-        studentAvatar={StudentOne}
-        studentName={"williams john"}
-        highlightTitle={"ui/ux designer"}
-        StudentHighlights={
-          "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career."
-        }
-      />
+      <TestimonialsSection/>
+      
     </div>
   );
 }
 
-export default Testimonials;
+function TestimonialsSection() {
+  return (
+    <section className="testimonial-section">
+      <div className="testimonial-title-area">
+        <h2 className="testimonial-maintitle">testimonials</h2>
+        <p className="testimonial-subtitle">our students feedback</p>
+      </div>
+
+      <div className="testimony-containers">
+      <Carousel itemsToShow={1} enableAutoPlay={true} autoPlaySpeed={4000}>
+{Testimonies.map((testimonial, i) => (
+  <TestimonialCards
+   key={i}
+    studentAvatar={testimonial.studentAvatar}
+    studentName={testimonial.studentName}
+    highlightTitle={testimonial.highlightTitle}
+    studentHighlights={testimonial.studentHighlights}
+  />
+))}
+</Carousel>
+</div>
+    </section>
+  );
+}
+
+export default Testimonials

@@ -1,10 +1,13 @@
+
 .testimonial-title-area {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding-top: 2rem;
+  
 }
+
 
 .testimonial-maintitle {
   text-transform: uppercase;
@@ -23,53 +26,57 @@
 
 .testimonial-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--primary-color);
   width: 60rem;
-  margin:2rem auto;
+  background-color: var(--primary-color);
+  margin: 2rem auto;
   padding: 1.3rem 1.6rem;
-  box-shadow: 0 0 1rem;
+  box-shadow: 1rem 1rem 3rem ;
 }
 
-.testimal-card-item{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 2rem;
+.testimony-containers{
+  width: 60%;
+  margin: auto;
 }
 
-.testimonial-image-card{
-    --size:7rem;
-    height: var(--size);
-    width: var(--size);
-    border-radius: 30rem;
-    
-    padding-top: .7rem;
+.testimal-card-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
 }
 
-.student-name{
-    text-transform:uppercase;
-    font-weight: 700;
+.testimonial-image-card {
+  --size: 8rem;
+  height: var(--size);
+  width: var(--size);
+  border-radius: 20rem;
 }
 
-.students-highlight-details{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    flex-direction:column;
-    padding-top:2rem;
+.student-name {
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-.students-highlight-title{
-    text-transform: capitalize;
-    font-size: 2rem;
-    letter-spacing:1.2px;
+.students-highlight-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2rem;
 }
 
-.students-highlight{
-    align-items: center;
-    line-height: 1.8;
-    text-align: justify;
+.students-highlight-title {
+  text-transform: capitalize;
+  font-size: 2rem;
+  letter-spacing: 1.2px;
+}
+
+.students-highlight {
+  align-items: center;
+  line-height: 1.8;
+  text-align: justify;
 }
