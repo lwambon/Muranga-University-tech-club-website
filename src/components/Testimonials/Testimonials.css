@@ -1,0 +1,75 @@
+.testimonial-title-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.testimonial-maintitle {
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  letter-spacing: 1.5px;
+  font-weight: 800;
+}
+
+.testimonial-subtitle {
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 1.2px;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  width: 60rem;
+  margin:2rem auto;
+  padding: 1.3rem 1.6rem;
+  box-shadow: 0 0 1rem;
+}
+
+.testimal-card-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.testimonial-image-card{
+    --size:7rem;
+    height: var(--size);
+    width: var(--size);
+    border-radius: 30rem;
+    
+    padding-top: .7rem;
+}
+
+.student-name{
+    text-transform:uppercase;
+    font-weight: 700;
+}
+
+.students-highlight-details{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    padding-top:2rem;
+}
+
+.students-highlight-title{
+    text-transform: capitalize;
+    font-size: 2rem;
+    letter-spacing:1.2px;
+}
+
+.students-highlight{
+    align-items: center;
+    line-height: 1.8;
+    text-align: justify;
+}
