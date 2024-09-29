@@ -1,5 +1,5 @@
 .heros-content-areas {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url(../../assets/heros-img.webp);
   background-position: cover;
   height: 90vh;
@@ -30,19 +30,9 @@
   letter-spacing: 1.2;
 }
 
-.btn-explore {
-  text-align: center;
-  text-transform: capitalize;
-  font: 3.5rem;
+.heros-text-container {
   padding: 2rem;
-  background-color: var(--btn-color);
-  border-radius: 1.5rem;
-  border-color: transparent;
-  margin-top: 6rem;
-}
-
-.btn-explore:hover {
-  color: var(--text-color);
+  font-size: 3rem;
+  text-transform: capitalize;
   background-color: var(--secondary-color);
-  transition: 0.3s;
 }

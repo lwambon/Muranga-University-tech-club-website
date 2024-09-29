@@ -15,7 +15,7 @@
 
 .testimonial-subtitle {
   text-transform: capitalize;
-  color: var(--secondary-color);
+  color: var(--secondary-text-color);
   font-weight: 600;
   font-size: 2rem;
   letter-spacing: 1.2px;
@@ -33,9 +33,19 @@
   padding: 1.3rem 1.6rem;
   box-shadow: 1rem 1rem 3rem;
 }
-
+@media screen and (max-width: 75.44rem) {
+  .testimonial-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 34rem) {
+  .testimony-containers {
+    width: 100%;
+    margin: auto;
+  }
+}
 .testimony-containers {
-  width: 60%;
+  width: 100%;
   margin: auto;
 }
 

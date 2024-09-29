@@ -30,7 +30,7 @@ function Footer() {
         </div>
         <div className="footer-content-area">
           <p className="footer-text-area">
-            all rights reserved copy lucy wambui
+            all rights reserved &copy; lucy wambui
           </p>
         </div>
       </div>

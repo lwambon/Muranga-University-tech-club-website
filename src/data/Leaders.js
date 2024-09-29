@@ -15,7 +15,7 @@ const LeadersInfo = [
     leadersName: "john ndia",
     leadersTitle: "patron",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "A seasoned tech mentor with 10+ years of experience, John is passionate about guiding students in their professional and personal development within the tech industry.",
   },
 
   {
@@ -23,7 +23,7 @@ const LeadersInfo = [
     leadersName: "victoria njeri",
     leadersTitle: "chairperson",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Victoria is an enthusiastic leader, focused on fostering innovation and collaboration among members, ensuring MUTC's success in technology and education initiatives.",
   },
 
   {
@@ -31,21 +31,21 @@ const LeadersInfo = [
     leadersName: "alan muhari",
     leadersTitle: "vice chairperson",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Alan is a problem solver and team leader, dedicated to empowering MUTC members through mentorship, project-based learning, and professional growth.",
   },
   {
     leadersImage: leader4,
     leadersName: "bridget gitonga",
     leadersTitle: "secretary",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Bridget is an organized, detail-oriented individual who ensures smooth communication and documentation for all MUTC events and initiatives.",
   },
   {
     leadersImage: leader5,
-    leadersName: "ruth mutisys",
+    leadersName: "ruth mutisya",
     leadersTitle: "treasurer",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Ruth is an experienced finance enthusiast, managing MUTC's financial operations and resource allocations to ensure effective project funding.",
   },
 
   {
@@ -53,21 +53,21 @@ const LeadersInfo = [
     leadersName: "webster ifedha",
     leadersTitle: "cyber security lead",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Webster specializes in cybersecurity solutions, helping students master network security, ethical hacking, and the latest in digital protection methods.",
   },
   {
     leadersImage: leader7,
     leadersName: "manase gunga",
     leadersTitle: "ui/ux lead",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Manase is a creative UI/UX expert, guiding students through the design process to create intuitive, user-centered digital experiences.",
   },
   {
     leadersImage: leader8,
     leadersName: "carolyne githenduka",
-    leadersTitle: "webdevelopment lead",
+    leadersTitle: "web development lead",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Carolyne is a full-stack developer, passionate about teaching web technologies, from frontend to backend, and fostering student innovation.",
   },
 
   {
@@ -75,7 +75,7 @@ const LeadersInfo = [
     leadersName: "stanley amunze",
     leadersTitle: "mobile apps development lead",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Stanley is a mobile app developer with expertise in Android and iOS, mentoring students in building functional and interactive mobile applications.",
   },
 
   {
@@ -83,7 +83,7 @@ const LeadersInfo = [
     leadersName: "paul karanja",
     leadersTitle: "cloud engineering lead",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Paul is a cloud infrastructure expert who helps students understand cloud architecture, virtualization, and DevOps practices for scalable solutions.",
   },
 
   {
@@ -91,7 +91,7 @@ const LeadersInfo = [
     leadersName: "evyonn mbithe",
     leadersTitle: "power platform lead",
     leadersInformation:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Evyonn specializes in Power Platform, guiding students to build efficient business applications and automate workflows with minimal coding.",
   },
 ];
 

@@ -1,16 +1,17 @@
-import HerosImage from "../../assets/about.webp";
+import HerosImage from "../../assets/about.jpg";
 import "./About.css";
 
-function Aboutsection() {
+function AboutSection() {
   return (
     <section className="about-section">
-      <h2 className="about-title">about us</h2>
+      <h2 className="about-title">About Us</h2>
+
       <div className="about-section-content">
         <div className="about-content">
           <h3 className="about-content-title">
             Muranga University Tech Club (MUTC)
           </h3>
-          <p className="about-content-area">
+          <p className="about-description">
             Muranga University Tech Club (MUTC) is the leading technology club
             at Muranga University, committed to enhancing students understanding
             and skills in programming and various tech fields. Established with
@@ -28,12 +29,43 @@ function Aboutsection() {
             are looking to start your tech journey or advance your existing
             skills, MUTC is the perfect place to nurture your passion for
             technology. Join us as we shape the future of tech innovation at
-            Muranga University!{" "}
+            Muranga University!
           </p>
-          <button className="btn-about-section">View our courses</button>
         </div>
+
         <div className="about-images-section">
-          <img src={HerosImage} alt="about image" />
+          <img src={HerosImage} alt="about MUTC" className="about-image" />
+        </div>
+      </div>
+
+      <div className="about-extra-info">
+        <div className="about-mission-values">
+          <div className="details">
+            <h3 className="about-subheading-area">Mission</h3>
+            <p className="about-text-details">
+              Our mission is to empower students with technical skills and
+              foster innovation, collaboration, and growth in the ever-evolving
+              tech landscape.
+            </p>
+          </div>
+          <div className="details">
+            <h3 className="about-subheading-area">Values</h3>
+            <ul className="list-items-subheading">
+              <li className="subheading-items">Innovation</li>
+              <li className="subheading-items">Collaboration</li>
+              <li className="subheading-items">Integrity</li>
+              <li className="subheading-items">Inclusivity</li>
+            </ul>
+          </div>
+
+          <div className="details">
+            <h3 className="about-subheading-area">Objectives</h3>
+            <p className="about-text-objectives">
+              MUTC aims to provide students with practical knowledge, hands-on
+              experience, and opportunities to work on real-world projects,
+              preparing them for careers in the tech industry.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -43,7 +75,7 @@ function Aboutsection() {
 function About() {
   return (
     <div>
-      <Aboutsection />
+      <AboutSection />
     </div>
   );
 }

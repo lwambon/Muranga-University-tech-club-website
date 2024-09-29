@@ -11,7 +11,7 @@ const studentTestimonies = [
     studentName: "williams john",
     highlightTitle: "ui/ux designer",
     studentHighlights:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "MUTC empowered me with UI/UX design skills through practical workshops, enhancing my creativity and career prospects tremendously.",
   },
 
   {
@@ -19,7 +19,7 @@ const studentTestimonies = [
     studentName: "florence wanjiru",
     highlightTitle: "data analyst",
     studentHighlights:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Thanks to MUTC, I developed strong data analysis skills and gained confidence in handling complex datasets and projects.",
   },
 
   {
@@ -27,21 +27,21 @@ const studentTestimonies = [
     studentName: "grace ann",
     highlightTitle: "backend developer",
     studentHighlights:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "MUTC provided invaluable backend development experience, helping me master server-side programming and database management through real-world challenges.",
   },
   {
     studentAvatar: student4,
     studentName: "andrew simba",
     highlightTitle: "frontend developer",
     studentHighlights:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "Through MUTC, I honed my frontend development skills and learned to build interactive, user-friendly web interfaces.",
   },
   {
     studentAvatar: student5,
     studentName: "peter mbugua",
     highlightTitle: "full stack developer",
     studentHighlights:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "MUTC's full-stack projects equipped me with comprehensive skills to develop both front-end and back-end web applications effectively.",
   },
 
   {
@@ -49,7 +49,7 @@ const studentTestimonies = [
     studentName: "hannah jane",
     highlightTitle: "software engineer",
     studentHighlights:
-      "I recommend joining MUTC to anyone passionate about tech. The club helped me, William Johnsimprove my UI/UX design skills through hands-on workshops and real-world projects, boosting my career",
+      "MUTC boosted my confidence as a software engineer by providing real-life coding challenges and collaboration opportunities.",
   },
 ];
 

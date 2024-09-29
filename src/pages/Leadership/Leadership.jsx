@@ -14,41 +14,51 @@ function LeadershipContainer({
 }) {
   return (
     <section className="ledership-section">
-      <div className="leadership-container">
-        <div className="leadership-card-container">
-          <img src={leadersImage} alt={leadersName} className="leaders-image" />
-          <p className="leaders-name">{leadersName}</p>
-          <div className="text-card-container">
-            <h3 className="leaders-title">{leadersTitle}</h3>
-            <p className="leaders-text-card">{leadersInformation}</p>
+      <div className="leadership-container-section-area">
+        <div className="leadership-container">
+          <div className="leadership-card-container">
+            <img
+              src={leadersImage}
+              alt={leadersName}
+              className="leaders-image"
+            />
+            <p className="leaders-name">{leadersName}</p>
+            <div className="text-card-container">
+              <h3 className="leaders-title">{leadersTitle}</h3>
+              <p className="leaders-text-card">{leadersInformation}</p>
+            </div>
           </div>
-        </div>
-        <div className="social-links">
-          <ul className="leaders-icons">
-            
+          <div className="social-links">
+            <ul className="leaders-icons">
               <li className="icons-links">
-                <p className="icon-item"><FaFacebook /></p>
+                <p className="icon-item">
+                  <FaFacebook />
+                </p>
                 <p className="icons-detail">@{leadersName}</p>
               </li>
-              
-           
+
               <li className="icons-links">
-                <p className="icon-item"><FaXTwitter/></p>
+                <p className="icon-item">
+                  <FaXTwitter />
+                </p>
                 <p className="icons-detail">@{leadersName}</p>
               </li>
-              
-           
+
               <li className="icons-links">
-                <p className="icon-item"><FaLinkedin /></p>
+                <p className="icon-item">
+                  <FaLinkedin />
+                </p>
                 <p className="icons-detail">@{leadersName}</p>
               </li>
-        
+
               <li className="icons-links">
-                <p className="icon-item"><FaInstagramSquare /></p>
+                <p className="icon-item">
+                  <FaInstagramSquare />
+                </p>
                 <p className="icons-detail">@{leadersName}</p>
               </li>
-             
-          </ul>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -58,7 +68,7 @@ function LeadershipContainer({
 function Leadership() {
   return (
     <div>
-      <h2 className="leaders-title-heading">leadership</h2>
+      <h2 className="leaders-title-heading">Leadership</h2>
       <div className="leadership-containers">
         {Leaders.map((leader, i) => (
           <LeadershipContainer

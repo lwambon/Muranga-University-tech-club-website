@@ -1,7 +1,6 @@
 import "./Events.css";
 
 function Events() {
-  
   const events = [
     {
       name: "Cyber Security",
@@ -51,9 +50,10 @@ function Events() {
     <section className="events-page">
       <h2 className="events-title">MUTC Weekly Schedule</h2>
       <p className="events-description">
-        The Events Page serves as a comprehensive guide to the weekly schedule
-        of MUTC. From Monday through Saturday, members can expect a diverse
-        range of learning opportunities and activities.
+        MUTC offers weekly schedule activities,allowing members various
+        opportunities to engage in specialized learning sessions from Monday to
+        Saturday. members can expect a diverse range of learning opportunities
+        and activities.
       </p>
 
       <div className="events-list">
@@ -63,12 +63,8 @@ function Events() {
             <p className="event-day-time">
               {event.day}, {event.time}
             </p>
-            <p className="event-location">
-              Location: {event.location}
-            </p>
-            <p className="event-leader">
-              Led by: {event.leader}
-            </p>
+            <p className="event-location">Location: {event.location}</p>
+            <p className="event-leader">Led by: {event.leader}</p>
           </div>
         ))}
       </div>
@@ -77,6 +73,3 @@ function Events() {
 }
 
 export default Events;
-
-
-

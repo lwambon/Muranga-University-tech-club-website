@@ -1,19 +1,27 @@
-/*.ledership-section{
-    display:flex;
-    flex-wrap: wrap;
-}*/
-
+.leadership-container-section-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .leadership-container {
   display: flex;
   flex-wrap: wrap;
-  width: 32%;
-  height: auto;
-  margin:2rem auto;
-  justify-content: space-between;
-  background-color:var(--primary-color);
-  box-shadow: 1rem 1rem 5rem;
-  padding: 3rem;
-  
+  width: 30%;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 5rem;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+@media screen and(max-width:54.33rem) {
+  .leadership-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .leadership-card-container {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .leaders-title-heading {
@@ -22,16 +30,16 @@
   align-items: center;
   justify-content: center;
   margin: 2rem auto;
-  color: black;
+  color: var(--secondary-text-color);
   letter-spacing: 2px;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .leadership-card-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 1rem;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -46,7 +54,7 @@
 .leaders-name {
   font-size: 3rem;
   text-transform: capitalize;
-  color: black;
+  color: var(--text-color);
   font-weight: 600;
 }
 
@@ -59,7 +67,7 @@
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 2rem;
-  font-size:2.5rem;
+  font-size: 2rem;
 }
 
 .leaders-text-card {
@@ -70,30 +78,30 @@
 
 /*------------------------icons section--------------------------*/
 
-.social-links{
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    justify-content: center;
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
 }
 
-.leaders-icons{
-    display: flex;
-    list-style: none;
-    gap: 1.5rem;
+.leaders-icons {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
 }
 
-.icon-item{
-    font-size:2.3rem;
-    color: var(--secondary-color);
+.icon-item {
+  font-size: 2.3rem;
+  color: var(--secondary-color);
 }
-.icon-item:hover{
-    color: var(--btn-color);
-    transition: all .4s;
+.icon-item:hover {
+  color: var(--btn-color);
+  transition: all 0.4s;
 }
 
-.icons-detail{
-    padding-bottom: 2rem;
-    font-size:1.1rem;
-    font-weight:bold;
+.icons-detail {
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
