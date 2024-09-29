@@ -1,18 +1,23 @@
 import "./Testimonials.css";
-//import PropTypes from "prop-types";
 //import StudentOne from "../../assets/student1.jpg";
-import Carousel from 'elastic-carousel';
+import Carousel from "elastic-carousel";
 import Testimonies from "../../data/Testimonies";
 
-
-
-
-function TestimonialCards({ studentAvatar, studentName, highlightTitle,studentHighlights}) {
+function TestimonialCards({
+  studentAvatar,
+  studentName,
+  highlightTitle,
+  studentHighlights,
+}) {
   return (
     <div className="testimonial-card-section">
       <div className="testimonial-container">
         <div className="testimal-card-item">
-          <img className="testimonial-image-card" src={studentAvatar} alt={studentName} />
+          <img
+            className="testimonial-image-card"
+            src={studentAvatar}
+            alt={studentName}
+          />
           <p className="student-name">{studentName}</p>
         </div>
         <div className="students-highlight-details">
@@ -27,8 +32,7 @@ function TestimonialCards({ studentAvatar, studentName, highlightTitle,studentHi
 function Testimonials() {
   return (
     <div>
-      <TestimonialsSection/>
-      
+      <TestimonialsSection />
     </div>
   );
 }
@@ -42,20 +46,20 @@ function TestimonialsSection() {
       </div>
 
       <div className="testimony-containers">
-      <Carousel itemsToShow={1} enableAutoPlay={true} autoPlaySpeed={4000}>
-{Testimonies.map((testimonial, i) => (
-  <TestimonialCards
-   key={i}
-    studentAvatar={testimonial.studentAvatar}
-    studentName={testimonial.studentName}
-    highlightTitle={testimonial.highlightTitle}
-    studentHighlights={testimonial.studentHighlights}
-  />
-))}
-</Carousel>
-</div>
+        <Carousel itemsToShow={1} enableAutoPlay={true} autoPlaySpeed={4000}>
+          {Testimonies.map((testimonial, i) => (
+            <TestimonialCards
+              key={i}
+              studentAvatar={testimonial.studentAvatar}
+              studentName={testimonial.studentName}
+              highlightTitle={testimonial.highlightTitle}
+              studentHighlights={testimonial.studentHighlights}
+            />
+          ))}
+        </Carousel>
+      </div>
     </section>
   );
 }
 
-export default Testimonials
+export default Testimonials;

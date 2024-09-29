@@ -1,0 +1,57 @@
+.events-page {
+    padding: 4rem;
+    background-color: var(--primary-color);
+  }
+  
+  .events-title {
+    text-align: center;
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: var(--btn-color);
+    letter-spacing: 2;
+  }
+  
+  .events-description {
+    text-align: center;
+    margin-bottom: 3.8rem;
+    font-size: 2rem;
+    color: var(--text-color);
+  }
+  
+  .events-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+  }
+  
+  .event-card {
+    background-color: var(--background-color);
+    padding: 5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 2rem ;
+    width: 35rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+    background-color: var(--btn-color);
+  }
+  
+  .event-name {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 1.2rem;
+  }
+  
+  .event-day-time,
+  .event-location,
+  .event-leader {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+  

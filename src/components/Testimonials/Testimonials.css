@@ -1,13 +1,10 @@
-
 .testimonial-title-area {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding-top: 2rem;
-  
 }
-
 
 .testimonial-maintitle {
   text-transform: uppercase;
@@ -34,10 +31,10 @@
   background-color: var(--primary-color);
   margin: 2rem auto;
   padding: 1.3rem 1.6rem;
-  box-shadow: 1rem 1rem 3rem ;
+  box-shadow: 1rem 1rem 3rem;
 }
 
-.testimony-containers{
+.testimony-containers {
   width: 60%;
   margin: auto;
 }

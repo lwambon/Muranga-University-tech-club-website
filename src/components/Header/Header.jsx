@@ -1,48 +1,40 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 
-function HeaderNavLinks() {
+function Header() {
   return (
     <section className="header-section">
       <div className="header-title">
-        <h2 className="header-logo">Muranga university tech club</h2>
+        <h2 className="header-logo">Muranga University Tech Club</h2>
       </div>
       <nav>
         <ul className="nav-list">
-          <li className="nav-list-items">
-            <a href="#" className="list-item">
-              Home
-            </a>
+          <li className="nav-list-item">
+            <Link to="/" className="list-item">
+              home
+            </Link>
           </li>
-          <li className="nav-list-items">
-            <a href="#about" className="list-item">
-              about
-            </a>
-          </li>
-          <li className="nav-list-items">
-            <a href="#leadership" className="list-item">
+
+          <li className="nav-list-item">
+            <Link to="/leadership" className="list-item">
               leadership
-            </a>
+            </Link>
           </li>
-          <li className="nav-list-items">
-            <a href="#tracks" className="list-item">
+
+          <li className="nav-list-item">
+            <Link to="/tracks" className="list-item">
               tracks
-            </a>
+            </Link>
           </li>
-          <li className="nav-list-items">
-            <a href="#events" className="list-item">
+
+          <li className="nav-list-item">
+            <Link to="/events" className="list-item">
               events
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
     </section>
-  );
-}
-function Header() {
-  return (
-    <div>
-      <HeaderNavLinks />
-    </div>
   );
 }
 
