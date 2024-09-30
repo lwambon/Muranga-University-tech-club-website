@@ -67,7 +67,7 @@ function LeadershipContainer({
 
 function Leadership() {
   return (
-    <div>
+    <div >
       <h2 className="leaders-title-heading">Leadership</h2>
       <div className="leadership-containers">
         {Leaders.map((leader, i) => (

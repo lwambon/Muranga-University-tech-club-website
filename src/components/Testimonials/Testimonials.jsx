@@ -46,7 +46,7 @@ function TestimonialsSection() {
       </div>
 
       <div className="testimony-containers">
-        <Carousel itemsToShow={1} enableAutoPlay={true} autoPlaySpeed={4000}>
+        <Carousel itemsToShow={1} enableAutoPlay={true} autoPlaySpeed={6000}>
           {Testimonies.map((testimonial, i) => (
             <TestimonialCards
               key={i}
