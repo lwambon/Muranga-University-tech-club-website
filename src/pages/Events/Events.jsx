@@ -61,7 +61,7 @@ function Events() {
           <div key={index} className="event-card">
             <h3 className="event-name">{event.name}</h3>
             <p className="event-day-time">
-              {event.day}, {event.time}
+              {event.day}: {event.time}
             </p>
             <p className="event-location">Location: {event.location}</p>
             <p className="event-leader">Led by: {event.leader}</p>
