@@ -115,13 +115,17 @@ function Tracks() {
                 <label htmlFor="year-of-study" className="form-details-section">
                   Year of Study
                 </label>
-                <input
-                  type="number"
+                <select
                   id="year-of-study"
                   className="form-group-input"
-                  placeholder="Year of study"
                   required
-                />
+                >
+                  <option value="">Select Year of Study</option>
+                  <option value="1">Year 1</option>
+                  <option value="2">Year 2</option>
+                  <option value="3">Year 3</option>
+                  <option value="4">Year 4</option>
+                </select>
               </div>
 
               <div className="form-detail-area">

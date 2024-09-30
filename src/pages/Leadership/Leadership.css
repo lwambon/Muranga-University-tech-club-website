@@ -1,4 +1,4 @@
-.leadership-containers{
+.leadership-containers {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -79,24 +79,24 @@
   padding: 0.9rem 1rem;
   line-height: 1.2;
 }
-@media screen and(max-width:34.69rem){
+@media screen and(max-width:34.69rem) {
   .leaders-text-card {
     text-align: justify;
     padding: 0.5rem 0.7rem;
     line-height: 1;
-}
+  }
 
-.leaders-name {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
+  .leaders-name {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
 
-.leaders-title {
-  text-transform: uppercase;
-  text-align: center;
-  padding-bottom: 2rem;
-  font-size: 1.4rem;
-}
+  .leaders-title {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+  }
 }
 /*------------------------icons section--------------------------*/
 

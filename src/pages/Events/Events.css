@@ -1,6 +1,5 @@
 .events-page {
   padding: 4rem;
-  background-color: var(--primary-color);
 }
 
 .events-title {
@@ -27,7 +26,7 @@
 }
 
 .event-card {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   padding: 5rem;
   border-radius: 8px;
   box-shadow: 0 0 2rem;
